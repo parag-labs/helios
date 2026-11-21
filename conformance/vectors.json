@@ -1,0 +1,148 @@
+{
+  "_comment": "Helios cross-language conformance vectors. See conformance/README.md.",
+  "window_ms": 1000,
+  "stream": [
+    {
+      "id": "a",
+      "t": 0,
+      "value": 10
+    },
+    {
+      "id": "b",
+      "t": 100,
+      "value": 20
+    },
+    {
+      "id": "a",
+      "t": 200,
+      "value": 10
+    },
+    {
+      "id": "c",
+      "t": 950,
+      "value": 5
+    },
+    {
+      "id": "d",
+      "t": 1000,
+      "value": 7
+    },
+    {
+      "id": "b",
+      "t": 1100,
+      "value": 20
+    },
+    {
+      "id": "e",
+      "t": 1500,
+      "value": 3
+    },
+    {
+      "id": "f",
+      "t": 2000,
+      "value": 8
+    },
+    {
+      "id": "g",
+      "t": 2500,
+      "value": 1
+    },
+    {
+      "id": "h",
+      "t": 3000,
+      "value": 4
+    }
+  ],
+  "dedup_decisions": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "tumbling_closed": [
+    {
+      "bucket": 0,
+      "total": 35
+    },
+    {
+      "bucket": 1,
+      "total": 30
+    },
+    {
+      "bucket": 2,
+      "total": 9
+    },
+    {
+      "bucket": 3,
+      "total": 4
+    }
+  ],
+  "sliding_series": [
+    {
+      "t": 0,
+      "count": 1,
+      "sum": 10,
+      "rate_milli": 1000
+    },
+    {
+      "t": 100,
+      "count": 2,
+      "sum": 30,
+      "rate_milli": 2000
+    },
+    {
+      "t": 200,
+      "count": 2,
+      "sum": 30,
+      "rate_milli": 2000
+    },
+    {
+      "t": 950,
+      "count": 3,
+      "sum": 35,
+      "rate_milli": 3000
+    },
+    {
+      "t": 1000,
+      "count": 3,
+      "sum": 32,
+      "rate_milli": 3000
+    },
+    {
+      "t": 1100,
+      "count": 3,
+      "sum": 32,
+      "rate_milli": 3000
+    },
+    {
+      "t": 1500,
+      "count": 4,
+      "sum": 35,
+      "rate_milli": 4000
+    },
+    {
+      "t": 2000,
+      "count": 3,
+      "sum": 31,
+      "rate_milli": 3000
+    },
+    {
+      "t": 2500,
+      "count": 2,
+      "sum": 9,
+      "rate_milli": 2000
+    },
+    {
+      "t": 3000,
+      "count": 2,
+      "sum": 5,
+      "rate_milli": 2000
+    }
+  ]
+}
