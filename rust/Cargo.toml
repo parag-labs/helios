@@ -1,0 +1,13 @@
+[package]
+name = "helios"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Real-time event analytics: windowed aggregation and deduplication"
+
+[lib]
+name = "helios"
+path = "src/lib.rs"
+
+[dev-dependencies]
+serde_json = "1"
